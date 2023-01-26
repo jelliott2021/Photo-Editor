@@ -1,0 +1,94 @@
+load res/PPMs/TestImage.ppm testPPM
+        brighten 30 testPPM test-brighter
+        brighten -30 testPPM test-darker
+        vertical-flip testPPM test-vertical
+        horizontal-flip testPPM test-horizontal
+        value-component testPPM test-value
+        intensity-component testPPM test-intensity
+        luma-component testPPM test-luma
+        red-component testPPM test-red
+        green-component testPPM test-green
+        blue-component testPPM test-blue
+        blur testPPM test-blur
+        sharpen testPPM test-sharpen
+        greyscale testPPM test-greyscale
+        sepia testPPM test-sepia
+        
+        save res/PPMs/Dark.ppm test-brighter
+        save res/PPMs/Bright.ppm test-darker
+        save res/PPMs/GreyscaleBlue.ppm test-blue
+        save res/PPMs/GreyscaleGreen.ppm test-green
+        save res/PPMs/GreyscaleIntensity.ppm test-intensity
+        save res/PPMs/GreyscaleLuma.ppm test-luma
+        save res/PPMs/GreyscaleRed.ppm test-red
+        save res/PPMs/GreyscaleValue.ppm test-value
+        save res/PPMs/HorizontalFlip.ppm test-horizontal
+        save res/PPMs/VerticalFlip.ppm test-vertical
+        save res/PPMs/Blur.ppm test-blur
+        save res/PPMs/Greyscale.ppm test-greyscale
+        save res/PPMs/Sharpen.ppm test-sharpen
+        save res/PPMs/Sepia.ppm test-sepia
+        
+        load res/JPEGs/testJPG.jpg testJPG
+        brighten 30 testJPG test-brighter
+        brighten -30 testJPG test-darker
+        vertical-flip testJPG test-vertical
+        horizontal-flip testJPG test-horizontal
+        value-component testJPG test-value
+        intensity-component testJPG test-intensity
+        luma-component testJPG test-luma
+        red-component testJPG test-red
+        green-component testJPG test-green
+        blue-component testJPG test-blue
+        blur testJPG test-blur
+        sharpen testJPG test-sharpen
+        greyscale testJPG test-greyscale
+        sepia testJPG test-sepia
+        
+        save res/JPEGs/Dark.jpg test-brighter
+        save res/JPEGs/Bright.jpg test-darker
+        save res/JPEGs/GreyscaleBlue.jpg test-blue
+        save res/JPEGs/GreyscaleGreen.jpg test-green
+        save res/JPEGs/GreyscaleIntensity.jpg test-intensity
+        save res/JPEGs/GreyscaleLuma.jpg test-luma
+        save res/JPEGs/GreyscaleRed.jpg test-red
+        save res/JPEGs/GreyscaleValue.jpg test-value
+        save res/JPEGs/HorizontalFlip.jpg test-horizontal
+        save res/JPEGs/VerticalFlip.jpg test-vertical
+        save res/JPEGs/Blur.jpg test-blur
+        save res/JPEGs/Greyscale.jpg test-greyscale
+        save res/JPEGs/Sharpen.jpg test-sharpen
+        save res/JPEGs/Sepia.jpg test-sepia
+        
+        save res/PNGs/testPNG.png testJPG
+        save res/PNGs/Dark.png test-brighter
+        save res/PNGs/Bright.png test-darker
+        save res/PNGs/GreyscaleBlue.png test-blue
+        save res/PNGs/GreyscaleGreen.png test-green
+        save res/PNGs/GreyscaleIntensity.png test-intensity
+        save res/PNGs/GreyscaleLuma.png test-luma
+        save res/PNGs/GreyscaleRed.png test-red
+        save res/PNGs/GreyscaleValue.png test-value
+        save res/PNGs/HorizontalFlip.png test-horizontal
+        save res/PNGs/VerticalFlip.png test-vertical
+        save res/PNGs/Blur.png test-blur
+        save res/PNGs/Greyscale.png test-greyscale
+        save res/PNGs/Sharpen.png test-sharpen
+        save res/PNGs/Sepia.png test-sepia
+        
+        save res/BMPs/testBMP.bmp testJPG
+        save res/BMPs/Dark.bmp test-brighter
+        save res/BMPs/Bright.bmp test-darker
+        save res/BMPs/GreyscaleBlue.bmp test-blue
+        save res/BMPs/GreyscaleGreen.bmp test-green
+        save res/BMPs/GreyscaleIntensity.bmp test-intensity
+        save res/BMPs/GreyscaleLuma.bmp test-luma
+        save res/BMPs/GreyscaleRed.bmp test-red
+        save res/BMPs/GreyscaleValue.bmp test-value
+        save res/BMPs/HorizontalFlip.bmp test-horizontal
+        save res/BMPs/VerticalFlip.bmp test-vertical
+        save res/BMPs/Blur.bmp test-blur
+        save res/BMPs/Greyscale.bmp test-greyscale
+        save res/BMPs/Sharpen.bmp test-sharpen
+        save res/BMPs/Sepia.bmp test-sepia
+        quit
